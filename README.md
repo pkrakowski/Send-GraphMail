@@ -8,7 +8,7 @@ PowerShell module which allows daemons to send notification emails in a more sec
 
 2. Assign it Send.Mail Application permission and create a new Client Secret.
 
-3. Scope permissions to select mailboxes as per below.
+3. Scope the permissions to only the mailbox you will be sending the notifications from
 
 https://docs.microsoft.com/en-us/graph/auth-limit-mailbox-access
 
