@@ -21,7 +21,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/workl
 ```
 Import-Module Graph.SendMail
 
-Send-GraphMail -From "notifications@mycompany.com" `
+Send-GraphMail -From "notifications@example.com" `
 -Recipients "anna@example.com", "tom@example.com" `
 -Subject "Test subject" `
 -EmailBody "This is a test email" `
