@@ -33,7 +33,6 @@ $ReqTokenBody = @{
 
 $TokenResponse = Invoke-RestMethod -Uri "https://login.microsoftonline.com/$TenantName/oauth2/v2.0/token" -Method POST -Body $ReqTokenBody
 
-
 foreach ($Recipient in $Recipients){
   $Block = "
 {
@@ -43,9 +42,6 @@ foreach ($Recipient in $Recipients){
 },"
 $RecipientBlock = $RecipientBlock + $Block
 }
-
-
-
 
 $apiUrl = "https://graph.microsoft.com/v1.0/users/$From/sendMail"
 $body = @"
