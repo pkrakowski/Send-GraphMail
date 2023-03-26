@@ -1,6 +1,6 @@
 # Send-GraphMail
 
-Send-GraphMail is a PowerShell module that enables daemons to send notification emails securely using Microsoft's Graph API and Modern Authentication.
+Send-GraphMail is a PowerShell module designed to provide a secure and reliable method for daemons to send notification emails. By leveraging Microsoft's Graph API and Modern Authentication, it offers enhanced security compared to traditional SMTP authentication.
 
 ## Prerequisites
 
